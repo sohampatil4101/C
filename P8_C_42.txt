@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    float c;
+    a=5;
+    b=4;
+    printf("addition\n");
+    c=a+b;
+    printf("sum of %d and %d is %.2f\n",a,b,c);
+    printf("multiply\n");
+    c=a*b;
+    printf("product of %d and %d is %.2f\n",a,b,c);
+    printf("division\n");
+    c=a/b;
+    printf("Division of %d and %d is %.2f\n",a,b,c);
+    printf("division\n");
+    c=(float)a/b;
+    printf("Division of %d and %d is %.2f\n",a,b,c);
+    
+}
+
+
+addition
+sum of 5 and 4 is 9.00
+multiply
+product of 5 and 4 is 20.00
+division
+Division of 5 and 4 is 1.00
+division
+Division of 5 and 4 is 1.25
