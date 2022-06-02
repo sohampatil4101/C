@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+    char str[10];
+    printf("Enter your name");
+    scanf("%[^\n]s",&str);
+    printf("Good Day! %s",str);
+    return 0;
+    
+}
+
+Enter your nameSOHAM 
+Good Day! SOHAM
+
+...Program finished with exit code 0
+Press ENTER to exit console.
