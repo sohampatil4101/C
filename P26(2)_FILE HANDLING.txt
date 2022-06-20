@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+int main()
+{
+    FILE *fp;
+    char c;
+    fp = fopen("/home/ttt/Desktop/sample.txt", "r");
+    
+    if(fp == NULL)
+    {
+        printf("File doesn't exist\n");
+    }
+    else
+    {
+        while (c != E0F)
+        {
+            c = getc(fp);
+            putchar(c);
+        }
+        
+        fclose(fp);
+    }
+    
+    return 0;
+    
+}
+
+OUTPUT:
+Welcome to the spoken-tutorial
+This is an test example 
