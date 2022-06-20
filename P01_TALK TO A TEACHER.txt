@@ -1,0 +1,28 @@
+my code:
+
+
+// My First c Program
+
+#include <stdio.h>
+
+int main()
+
+{
+    
+	printf("talk to teacher\n");
+    
+	printf("Welcome\n");
+    
+	return 0;
+
+}
+
+
+
+
+output:
+
+
+Hello World
+Welcome
+
