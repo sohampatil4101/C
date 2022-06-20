@@ -1,0 +1,40 @@
+Online C compiler to run C program online
+#include <stdio.h>
+int cube(int x){
+    x=x*x*x;
+    return(x);
+}
+int main(){
+    int n;
+    printf("Enter Your Number: ");
+    scanf("%d",&n);
+    printf("the cube of %d is %d\n",n,cube(n));
+}
+
+output-
+Enter Your Number: 8
+the cube of 8 is 512
+
+
+#include <stdio.h>
+int swap(int *a,int *b){
+    int t;
+    t=*a;
+    *a=*b;
+    *b=t;
+    
+}
+int main(){
+    int i,j;
+    printf("Enter two values\n");
+    scanf("%d%d",&i,&j);
+    swap(&i,&j);
+    printf("After swappint we get %d and %d",i,j);
+}
+
+output-
+
+Enter two values
+6
+8
+After swappint we get 8 and 6
