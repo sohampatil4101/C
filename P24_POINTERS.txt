@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    long int a=10;
+    long int *ptr;
+    printf("Enter a Number\n");
+    scanf("%d",&a);
+    ptr= &a;
+    printf("Entered Number is: %ld", a);
+    printf("\nAddress is %p", ptr);
+    printf("\nSize of pointer is %p\n", sizeof(ptr));
+    return 0;
+}
+
+
+
+Enter a Number
+10
+Entered Number is: 10
+Address is 0x7fff79dd8928
+Size of pointer is 0x8
