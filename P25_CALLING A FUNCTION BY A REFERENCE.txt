@@ -1,0 +1,22 @@
+#include <stdio.h>
+int swap(int *a,int *b){
+    int t;
+    t=*a;
+    *a=*b;
+    *b=t;
+    
+}
+int main(){
+    int i,j;
+    printf("Enter two values\n");
+    scanf("%d%d",&i,&j);
+    swap(&i,&j);
+    printf("After swappint we get %d and %d",i,j);
+}
+
+output-
+
+Enter two values
+6
+8
+After swappint we get 8 and 6
