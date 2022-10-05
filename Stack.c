@@ -8,13 +8,13 @@ int display();
 int size();
 int peek();
 
-int stack[100],n, top=-1;
+int stack[100], n, top=-1;
 
 int main(){
     int ch;
     printf("Enter the size of the array:\n");
     scanf("%d",&n);
-
+    n=n-1;
     stack[n];
     while(1){
     start:
